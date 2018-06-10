@@ -1,0 +1,7 @@
+<br><br>
+  <h2>Your Yoda Text: </h2>
+  <div class="alert alert-success">
+    <h3><strong>{{model.contents.translated}}</strong></h3>
+  </div>
+  <button type="button" class="btn btn-primary" {{action 'goBack' comment }}>Go back to translator</button>
+{{outlet}}

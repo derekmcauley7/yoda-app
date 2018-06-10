@@ -1,0 +1,9 @@
+<form>
+    <div class="form-group">
+      <label for="comment">Enter text:</label>
+      <br>
+      {{textarea type="text" value=comment cols="80" rows="6"}}
+    </div>
+    <button type="button" class="btn btn-primary" {{action 'translateClicked' comment }}>Translate</button>
+</form>
+{{outlet}}
